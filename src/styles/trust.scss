@@ -1,0 +1,118 @@
+.trust {
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 50px;
+  padding-bottom: -50px !important;
+
+  &__content{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: -100px;
+  }
+
+  &__left{
+    width: calc(40% - 135px);
+
+    &-subtitle{
+      font-weight: 300;
+      font-size: 40px;
+      color: #425066;
+    }
+
+    &-title{
+      font-weight: 600;
+      font-size: 48px;
+      color: #DC1F27;
+    }
+
+    &-text{
+      margin-top: 19px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #425066;
+    }
+
+  }
+
+  &__right{
+    width: calc(60% ) !important;
+    display: flex !important;
+    position: relative !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 50px 0 50px!important;
+    transform: translateY(-50px) !important;
+    justify-content: center !important;
+
+
+    &-low {
+      display: flex !important;
+      flex-direction: column !important;
+      row-gap: 20px !important;
+      padding: 50px 0 0 0 !important;
+      margin: 0 10px 0 !important;
+    }
+
+    &-high{
+      padding: 0!important;
+      display: flex !important;
+      flex-direction: column !important;
+      row-gap: 20px !important;
+      margin: 0 30px 0 !important;
+    }
+
+    &-card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 15px 20px 12px 20px;
+      border-radius: 4px;
+
+      &-svg{
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        border-radius: 50%;
+      }
+
+      &-title{
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+      }
+
+      &-text{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #777777;
+      }
+    }
+
+    &-cardBlue{
+      background: #E6F9FF;
+      box-shadow: 0 0 8px rgba(10, 116, 243, 0.4);
+    }
+
+    &-cardPink{
+      background: #FFEBE6;
+      box-shadow: 0 0 8px rgba(10, 116, 243, 0.4);
+    }
+  }
+}
+
+
+@media (max-width: 1250px) {
+  .trust__left-subtitle {
+    font-size: 35px;
+  }
+  .trust__left-title {
+    font-size: 40px;
+  }
+}

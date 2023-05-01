@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "email": "joni.pacan@list.ru",
+      "password": "$2a$10$Dy/lSw5Yawac/8io1rRaserD10oxcFPF5OSb0L17EE8/MbaXomcSi",
+      "fullName": "Zhanybek",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9xsa8RDdgppFw3m9ATCeOsW4Ld7tzvEKHPA&usqp=CAU",
+      "id": 1
+    },
+    {
+      "email": "erjan.pacan@list.ru",
+      "password": "$2a$10$60.ogqMT9Xh9tZ8NMGGcKe.3QgW/wv4IJQwaxfgHw6sUEeA6xOwfe",
+      "fullName": "Erjan",
+      "photo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhYZGBgaHBwdHBwaGhgaGhwcGhkaGhgZGBocIS4lHB4rHxgZJjgmKy8xNTU1HiQ7QDs0Py40NTEBDAwMEA8QHxISHjUrJSw2NDQ0NDQxNDY0MTQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NP/AABEIAR4AsAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAQIDBAYAB//EAD8QAAIBAgQDBgQDBgUDBQAAAAECEQADBBIhMQVBUQYiYXGBkRMyobFCwfAUI1JictEHgpLh8TOishUWU2PC/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAIDAQQF/8QAJBEAAwEAAgICAwADAQAAAAAAAAECEQMxEiEEQSIyURNhcbH/2gAMAwEAAhEDEQA/APJBUqb1HUgpjBetWMLYzSxmByAmfDcaRPsY2NV6v2MWCve3A8dYAy5Y21AkadQQRQBK5gZthpA7mnIFMpg6RIiGE9KH3rhYgmBAAAGgAHIVI7ltT6CAI1J5AaySaZloARVr1Dsd/h2Cq3sYDrqtmSIG4N0jWf5BtznYCv8AC7ga3b74hxKWcuQHY3Gkg/5QJ82U8q9ZxOOtWhN24iD+d1X/AMjTKRWyunZ3CAZRhbEdPhIfeV1qljOxWAuCDhkTxtzbP/ZA9xV+xx/CuYTE2WPQXE/vRBHVhKkEdQQR9K3DdPEu2fZU4F1yMz2bk5GaMysN0aBBPMHSRPSsldFe5/4k4UPgHbnbZHH+oIf+1zXhzjelpAn9CLUirFIg0mn5qQYYwg0wLpU6CTUbCgCu1MA1p7CmqKYwei1LbWKagqzbWsZpGTUV5anKU26Kw0HgU4Cup6imFOYdKRF1rjUthdRQA7LFcRTzzrmoAN4Hte2Ewpw9ju3Xdne4QDkUqqqqA/iIUmTtI9MpfvPccu7MzHdmJZj5k",
+      "id": 2
+    },
+    {
+      "email": "erjan.sas@gmail.com",
+      "password": "$2a$10$mRi0JhfTRiyqYanV7LsFze1eObk7oWX1zHnTkIeWPD9Pz9Nf03NQm",
+      "fullName": "Erjan Kuljabaev",
+      "photo": "",
+      "id": 3
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "photo": "https://sun3-3.userapi.com/s/v1/ig2/dSrapcLsftfnesTZGWU5qRAo3RTVnoCCGhKSnVAetZZgL8HTT7rNKlqUo9jaJxV699GuDY1XplBdjf0QdwAwHV5o.jpg?size=200x200&quality=96&crop=0,0,540,540&ava=1",
+      "name": "Lana Mordvintseva",
+      "mark": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "2",
+      "photo": "https://sun3-17.userapi.com/s/v1/ig2/ZOrz5uSIPtFtBiuTd1mcHVr_HlHjI4A8D2h2qrg4ebsEU7GwV0ffZZZ5CCf_foeh4ccL6rC-CksnU0ffzfgjEQ1W.jpg?size=200x200&quality=95&crop=222,167,978,978&ava=1",
+      "name": "Лиза Савичева",
+      "mark": 4,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "3",
+      "photo": "https://sun3-21.userapi.com/s/v1/ig2/DBOOeA_a2OIZqbO1DabpHkgfcHYDxIKKWsD483LETj9SX1P_nXnYpE82aisURbzKb2K7brmMxl3AlJoh-thUlIbT.jpg?size=200x200&quality=96&crop=72,72,576,576&ava=1",
+      "name": "Михаил Тилозода",
+      "mark": 3,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "4",
+      "photo": "https://sun3-17.userapi.com/s/v1/ig2/IUEcAuZNYbfzPBsC-kBgcEVQJfmSmZ_tZ0cafN2maMjYo05UNqPmAx15z1Mplk6sxt_hMPLwZ2eKOnl4SeSKzV_u.jpg?size=200x200&quality=95&crop=100,379,1019,1019&ava=1",
+      "name": "Мухаммад Азимов",
+      "mark": 2,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "5",
+      "photo": "https://sun3-3.userapi.com/s/v1/ig2/dSrapcLsftfnesTZGWU5qRAo3RTVnoCCGhKSnVAetZZgL8HTT7rNKlqUo9jaJxV699GuDY1XplBdjf0QdwAwHV5o.jpg?size=200x200&quality=96&crop=0,0,540,540&ava=1",
+      "name": "Lana Mordvintseva",
+      "mark": 1,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "6",
+      "photo": "https://sun3-21.userapi.com/s/v1/ig2/AUOtuEFC_t79KoKVcLkpuCdOh4NPBjULRoc_Sj3UuFKKw9y0ENbAprMTvHWQ23NTPc7mKsyXCKMw5UYT3p9J3TCX.jpg?size=200x200&quality=95&crop=0,386,1200,1200&ava=1",
+      "name": "Parizoda Yusipova",
+      "mark": 5,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "7",
+      "photo": "https://sun3-23.userapi.com/s/v1/ig2/qPHh8Lgw7dJcL7qtkQiUyRYCCPF9a3XbrxqB0KQm_rwmXSx5m3DtAXHaoIYvvqw7TnLwxxmvPu8ctSOkAfb5XQYk.jpg?size=200x200&quality=95&crop=87,1046,1317,1317&ava=1",
+      "name": "Сонечка Дуброва",
+      "mark": 4,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "8",
+      "photo": "https://sun3-18.userapi.com/s/v1/ig2/08TYGOsEqwLyBUCH9ihV9mnomCbBA9jNBbiX7R4vM3K3XgaEmle7IjpL4x4Dt2jhkJgNY7mzHeCva8zQN31axDh0.jpg?size=200x200&quality=95&crop=0,0,1795,1795&ava=1",
+      "name": "Ahmed Sokkaev",
+      "mark": 3,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "9",
+      "photo": "https://sun3-18.userapi.com/s/v1/ig2/6j9ygSPjwwcmEJZfW-a0XiMhxIzr2qxeb6JDpSAL5y06AfS2llWmZaX6d984SsvYNAARyQDt-tHRtHBaVjS0b22z.jpg?size=200x200&quality=95&crop=111,332,1375,1375&ava=1",
+      "name": "Nastya Polyak",
+      "mark": 2,
+      "text": "Lorem ipsum dolor sit amet consectetur. Leo vitae velit egestas purus quis. In adipiscing pulvinar facilisi posuere. Mauris faucibus vitae tristique varius ut pellentesque. Eleifend elit."
+    },
+    {
+      "id": "b7783aa0-886b-4f14-b545-7eeb2ff3609d",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9xsa8RDdgppFw3m9ATCeOsW4Ld7tzvEKHPA&usqp=CAU",
+      "name": "Zhanybek",
+      "mark": 5,
+      "text": "Привет, все очень классно "
+    }
+  ]
+}

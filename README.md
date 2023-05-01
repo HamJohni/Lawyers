@@ -1,38 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Добро пожаловать в "Lawyers"
 
-## Getting Started
+Мы предлагаем широкий спектр услуг в области права, включая юридические консультации, адвокатскую помощь, юридический анализ и другие.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Технологии :
+-next: фреймворк для создания универсальных приложений на React. Он предоставляет множество инструментов для оптимизации производительности, создания статических и динамических страниц, обработки маршрутизации и многого другого.
+- chakra-ui: библиотека компонентов для React, которая предоставляет готовые компоненты интерфейса для быстрого создания красивых и функциональных пользовательских интерфейсов.
+- redux toolkit: официальное рекомендуемое орудие для создания хранилища состояний в приложениях на React. Оно упрощает использование Redux, предоставляя удобный API и автоматически обрабатывая многие задачи, которые обычно требуют много кода.
+- react-rating: компонент React, который позволяет легко добавлять рейтинги на ваш сайт. Он предоставляет различные настройки для настройки внешнего вида и поведения компонента рейтинга.
+- axios: библиотека для выполнения HTTP-запросов на стороне клиента и на сервере. Он предоставляет удобный API для отправки запросов, обработки ответов и работы с интерсепторами.
+- framer-motion: библиотека анимации для React, которая позволяет создавать красивые и плавные анимации с помощью декларативного API. Она предоставляет множество настроек анимации, таких как продолжительность, задержка, эффекты, повторение и другие.
+- json-server-auth: инструмент для создания фейкового API на основе JSON-файлов. Он также поддерживает аутентификацию и авторизацию, что делает его идеальным выбором для разработки прототипов и мокапов приложений.
+- react-dom: библиотека для работы с DOM в React-приложениях. Он предоставляет методы для взаимодействия с реальным DOM и обновления его состояния в соответствии с изменением состояния компонентов.
+- react-hook-form: библиотека для управления формами в React. Он предоставляет API для управления состоянием форм, валидации, обработки отправки формы и других задач.
+-Swiper - это библиотека для создания слайдеров на JavaScript. Она позволяет создавать слайды любой сложности, включая горизонтальные и вертикальные слайдеры, слайдеры с пагинацией и т.д. Swiper также предоставляет множество опций для настройки внешнего вида и поведения слайдера
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Как запустить проект 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**npm run dev** // Запустить проект
+**npm run server** // Для запуска сервера

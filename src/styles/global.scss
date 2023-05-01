@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: .5s;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+button{
+  cursor: pointer;
+}
+
+.btn{
+  padding: 15px 30px;
+  background: #D8232A;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  border: none;
+
+  &:hover{
+    transform: scale(1.05);
+  }
+
+  &:active{
+    transform: scale(0.95);
+  }
+}
+
+.footer{
+  text-align: center;
+  padding: 17px 0 9px;
+
+  &-title{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+}
+
+@import "header";
+@import "first";
+@import "trust";
+@import "connect";
+@import "slot";
+@import "legal";
+@import "review";
+@import "choose";
+@import "form";
