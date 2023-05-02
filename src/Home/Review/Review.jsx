@@ -2,7 +2,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {useEffect, useRef, useState} from "react";
 import axios from "axios";
 
-import {getAllReviews} from "../../redux/reducers/reviews";
+import {getAllReviews} from "@/redux/reducers/reviews";
 import OverlayOne from "../../components/Overlay/Overlay";
 
 // Chakra

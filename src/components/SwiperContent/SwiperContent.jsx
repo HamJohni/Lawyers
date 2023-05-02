@@ -79,37 +79,44 @@ const SwiperContent = () => {
                         <motion.li custom={2} variants={rightAnimation} className="first__right-item">
                             <Image src={camera} alt={"camera"}/>
 
-                            <motion.p custom={3} variants={rightAnimation} className="first__right-item-info">
-                                <motion.span custom={4} variants={rightAnimation} className="first__right-item-title">
+
+                            <motion.div  custom={3} variants={rightAnimation} className="first__right-info">
+                                <motion.span className="first__right-item-title">
                                     Lorem
                                 </motion.span>
-                                Lorem ipsum dolor sit amet <br/>
-                                consectetur. Varius sed.
-                            </motion.p>
+                                <motion.p className="first__right-item-info-text">
+                                    Lorem dolor sit amet <br/>
+                                    consectetur. Varius sed.
+                                </motion.p>
+                            </motion.div>
                         </motion.li>
 
                         <motion.li custom={2} variants={rightAnimation} className="first__right-item">
                             <Image src={call} alt={"call"}/>
 
-                            <motion.p custom={3} variants={rightAnimation} className="first__right-item-info">
-                                <motion.span custom={4} variants={rightAnimation} className="first__right-item-title">
+                            <motion.div  custom={3} variants={rightAnimation} className="first__right-info">
+                                <motion.span className="first__right-item-title">
                                     Lorem
                                 </motion.span>
-                                Lorem ipsum dolor sit amet <br/>
-                                consectetur. Varius sed.
-                            </motion.p>
+                                <motion.p className="first__right-item-info-text">
+                                    Lorem ipsum dolor sit amet <br/>
+                                    consectetur. Varius sed.
+                                </motion.p>
+                            </motion.div>
                         </motion.li>
 
                         <motion.li custom={2} variants={rightAnimation} className="first__right-item">
                             <Image src={doc} alt={"doc"}/>
 
-                            <motion.p custom={3} variants={rightAnimation} className="first__right-item-info">
-                                <motion.span custom={4} variants={rightAnimation} className="first__right-item-title">
+                            <motion.div  custom={3} variants={rightAnimation} className="first__right-info">
+                                <motion.span className="first__right-item-title">
                                     Lorem
                                 </motion.span>
-                                Lorem ipsum dolor sit amet <br/>
-                                consectetur. Varius sed.
-                            </motion.p>
+                                <motion.p className="first__right-item-info-text">
+                                    Lorem ipsum dolor sit amet <br/>
+                                    consectetur. Varius sed.
+                                </motion.p>
+                            </motion.div>
                         </motion.li>
 
                     </ul>

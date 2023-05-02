@@ -164,9 +164,9 @@
 }
 
 #progress {
-  position: relative;
-  top: 50px;
-  left: -120px;
+  position: absolute;
+  top: 0;
+  right: 0;
   transform: rotate(-90deg);
 }
 
@@ -191,3 +191,43 @@ circle {
     left: 0;
   }
 }
+
+@media (max-width: 850px) {
+  #progress {
+    transform: scale(.8) rotate(-90deg);
+  }
+}
+
+@media (max-width: 800px) {
+  .review__top-subtitle {
+    display: none;
+  }
+  .legal__subtitle {
+    font-size: 35px;
+  }
+  .legal__title {
+    font-size: 35px;
+  }
+  .review__top-title {
+    font-size: 18px;
+  }
+  .review__bottom-text {
+    transform: scale(.9);
+  }
+  .review__bottom {
+    padding: 31px 9px 13px 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .review__bottom-svg {
+    display: none;
+  }
+  .review__bottom {
+    padding: 0;
+  }
+  .review__top {
+    padding: 42px 0 6px;
+  }
+}
+

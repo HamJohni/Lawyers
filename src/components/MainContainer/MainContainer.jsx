@@ -73,13 +73,9 @@ const MainContainer = ({children, keywords, title}) => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
     const headerStyle = {
-        position: "fixed",
-        maxWidth: "100%",
-        top: "0",
-        zIndex: "1000",
-        borderRadius: '0',
-        padding: "10px 50px"
+
     }
     // ---------------------------------------------------
 
@@ -90,10 +86,10 @@ const MainContainer = ({children, keywords, title}) => {
                 <title>{title}</title>
             </Head>
 
-            <motion.header className="header"
+            <motion.header className={`header ${scrollPosition > 20 ? "active" : ''}`}
                            initial="hidden"
                            whileInView="visible"
-                           style={scrollPosition > 20 ? headerStyle : null}>
+            >
                 <motion.nav custom={1} variants={textAnimation} className="header__nav">
                     <div className="header__left">
                         <h1 className="header__left-box">

@@ -40,19 +40,6 @@ const topAnimation = {
         transition: {delay: custom * 0.3}
     })
 }
-
-const rightAnimation = {
-    hidden: {
-        x: 100,
-        opacity: 0,
-    },
-    visible: custom => ({
-        x: 0,
-        opacity: 1,
-        transition: {delay: custom * 0.3}
-    })
-}
-
 const bottomAnimation = {
     hidden: {
         y: 100,
@@ -72,8 +59,14 @@ const Connect = () => {
             initial="hidden"
             whileInView="visible"
             className="connect">
-            <div className="container">
-                <div className="connect__content">
+            <div className="container connect__content">
+                <div className="connect__content-box">
+
+                    <div className="connect__right connect__right-top">
+                        <Info subtitle={"Connect with our"} className="connect__info" title={"Legal Advisors"}
+                              text={"Lorem ipsum dolor sit amet consectetur. Dui auctor sagittis est et nisl. Cras blandit ultrices adipiscing eget volutpat sed. Lorem diam amet donec enim. Et viverra mauris."}/>
+                        <button className="connect__right-btn btn">Talk to lawyer</button>
+                    </div>
 
                     <motion.div custom={2} variants={textAnimation} className="connect__left">
                         <ul className="connect__left-list">
@@ -127,7 +120,7 @@ const Connect = () => {
                             Call
                         </motion.div>
 
-                        <motion.div custom={3} variants={rightAnimation} id="doc"
+                        <motion.div custom={3} variants={textAnimation} id="doc"
                                     className="connect__left-block-doc connect__left-block">
                             <span className="connect__left-block-svg" style={{background: "#FF385C"}}>
                                 <Image src={doc} alt={"doc"}/>
@@ -150,7 +143,6 @@ const Connect = () => {
                               text={"Lorem ipsum dolor sit amet consectetur. Dui auctor sagittis est et nisl. Cras blandit ultrices adipiscing eget volutpat sed. Lorem diam amet donec enim. Et viverra mauris."}/>
                         <button className="connect__right-btn btn">Talk to lawyer</button>
                     </div>
-
                 </div>
             </div>
         </motion.section>

@@ -1,11 +1,18 @@
 .connect{
-  padding: 65px 0 206px;
+  padding: 65px 0 61px;
   border-bottom: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD;
 
   &__content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 60vh;
+    padding: 0 20px;
+
+    &-box{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transform: translateY(50px);
+    }
   }
 
   &__left{
@@ -142,6 +149,11 @@
   &__right{
     width: calc(40% - 135px);
 
+    &-top{
+      display: none;
+    }
+
+
     &-btn{
       margin-top: 40px;
     }
@@ -217,3 +229,64 @@ body:has(#camera:hover) .dot {
   }
 }
 
+@media (max-width: 1300px) {
+  .connect__content {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .connect__content {
+    height: 70vh;
+  }
+  .connect {
+    padding: 38px 0 52px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .connect__content {
+    height: 80vh;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .connect__right-btn {
+    margin-top: 10px;
+  }
+
+  .connect__right-top{
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .connect__left {
+    right: 50px;
+  }
+
+  .connect__content {
+    height: 120vh;
+  }
+
+  .connect__content-box{
+    flex-direction: column;
+  }
+  .connect__right{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .connect__left {
+    right: 90px;
+  }
+}
+
+@media (max-width: 850px) {
+  .connect__left {
+    right: 150px;
+  }
+}

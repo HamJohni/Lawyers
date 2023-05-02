@@ -35,7 +35,6 @@
 
     &:hover{
       transform: scale(1.02);
-      //border: none;
       cursor: auto;
       background: #D9D9D9;
       transition: 0.3s;
@@ -81,4 +80,15 @@
 
 .bottom{
   border-bottom: none;
+}
+
+@media (max-width: 750px) {
+  .legal__subtitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .legal__title {
+    line-height: 45px;
+    font-size: 30px;
+  }
 }

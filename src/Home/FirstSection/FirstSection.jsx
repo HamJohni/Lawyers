@@ -21,6 +21,7 @@ const FirstSection = () => {
     };
 
     return (
+        // <div className="container">
         <Swiper
             speed={600}
             parallax={true}
@@ -56,6 +57,7 @@ const FirstSection = () => {
                 <span ref={progressContent}></span>
             </div>
         </Swiper>
+        // </div>
     )
 }
 export default FirstSection

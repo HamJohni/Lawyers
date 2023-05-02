@@ -55,8 +55,8 @@ const Trust = () => {
             whileInView="visible"
             className="trust">
 
-            <div className="container">
-                <div className="trust__content">
+            <div className="container trust__content">
+                {/*<div className="trust__content">*/}
 
                     <Info className={"trust__left"} subtitle={"Trust your future &"} title={"Peaceful life"}
                           text={"Lorem ipsum dolor sit amet consectetur. Dui auctor sagittis est et nisl. Cras blandit ultrices adipiscing eget volutpat sed. Lorem diam amet donec enim. Et viverra mauris."}/>
@@ -202,7 +202,7 @@ const Trust = () => {
                             </motion.div>
                         </SwiperSlide>
                     </Swiper>
-                </div>
+                {/*</div>*/}
             </div>
         </motion.section>
     )

@@ -22,62 +22,46 @@ const textAnimation = {
     })
 }
 
-const rightAnimation = {
-    hidden: {
-        x: 100,
-        opacity: 0,
-    },
-    visible: custom => ({
-        x: 0,
-        opacity: 1,
-        transition: {delay: custom * 0.3}
-    })
-}
-
-
 const Choose = () => {
 
     return (
         <motion.section
             initial="hidden"
             whileInView="visible" className="choose">
-
-            <div className="container">
                 <motion.h2 custom={1} variants={textAnimation} className="choose__title">
                     Why choose us
                 </motion.h2>
 
                 <div className="choose__content">
 
-                    <motion.ul custom={2} variants={textAnimation} className="choose__content-list"
-                               style={{textAlign: "right"}}>
+                    <motion.ul custom={2} variants={textAnimation} className="choose__content-list choose__content-list-right">
 
                         <li className="choose__content-item">
-                            <h2 className="choose__content-item-title">
+                            <h2 className="choose__content-item-title choose__content-list-right">
                                 Economic
                             </h2>
 
-                            <p className="choose__content-item-desc">
+                            <p className="choose__content-item-desc choose__content-list-right">
                                 Lorem ipsum dolor sit amet consectetur
                             </p>
                         </li>
 
-                        <li className="choose__content-item">
-                            <h2 className="choose__content-item-title">
+                        <li className="choose__content-item choose__content-list-right">
+                            <h2 className="choose__content-item-title choose__content-list-right">
                                 Professional
                             </h2>
 
-                            <p className="choose__content-item-desc">
+                            <p className="choose__content-item-desc choose__content-list-right ">
                                 Lorem ipsum dolor sit amet consectetur
                             </p>
                         </li>
 
                         <li className="choose__content-item">
-                            <h2 className="choose__content-item-title">
+                            <h2 className="choose__content-item-title choose__content-list-right">
                                 Security
                             </h2>
 
-                            <p className="choose__content-item-desc">
+                            <p className="choose__content-item-desc choose__content-list-right">
                                 Lorem ipsum dolor sit amet consectetur
                             </p>
                         </li>
@@ -94,7 +78,7 @@ const Choose = () => {
                             <Image src={woman} alt={"woman"}/>
                         </span>
 
-                        <motion.span custom={2} variants={rightAnimation} className="choose__content-mid-smile">
+                        <motion.span custom={2} variants={textAnimation} className="choose__content-mid-smile">
                             <Image src={smile} alt={"smile"}/>
                         </motion.span>
 
@@ -106,13 +90,13 @@ const Choose = () => {
                             <Image src={sale} alt={"sale"}/>
                         </span>
 
-                        <motion.span custom={2} variants={rightAnimation} className="choose__content-mid-time">
+                        <motion.span custom={2} variants={textAnimation} className="choose__content-mid-time">
                             <Image src={time} alt={"time"}/>
                         </motion.span>
 
                     </div>
 
-                    <motion.div custom={2} variants={rightAnimation} className="choose__content-list">
+                    <motion.div custom={2} variants={textAnimation} className="choose__content-list">
 
                         <li className="choose__content-item">
                             <h2 className="choose__content-item-title">
@@ -145,8 +129,6 @@ const Choose = () => {
                         </li>
 
                     </motion.div>
-
-                </div>
             </div>
         </motion.section>
     )
