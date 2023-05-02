@@ -19,3 +19,5 @@
 
 - **npm run dev** // Запустить проект
 - **npm run server** // Для запуска сервера
+
+[ССылка на проект без Backend](https://lawyers-hamjohni.vercel.app/)
