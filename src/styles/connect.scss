@@ -3,8 +3,9 @@
   border-bottom: 1px solid #DDDDDD;
   border-top: 1px solid #DDDDDD;
 
+
   &__content{
-    height: 60vh;
+    height: 600px;
     padding: 0 20px;
 
     &-box{
@@ -53,14 +54,17 @@
       border-radius: 10px;
       padding: 15px 30px 15px 11px;
       position: absolute;
-      top: -36px;
-      right: -155px;
       display: flex;
       column-gap: 15px;
       align-items: center;
       background: white;
       font-size: 16px;
       line-height: 24px;
+
+      &-call{
+        top: -36px;
+        right: -155px;
+      }
 
 
       &:hover{
@@ -70,37 +74,37 @@
 
 
       &-doc{
-        box-shadow: 0 12.6px 31.6px rgba(10, 116, 243, 0.15) !important;
+        box-shadow: 0 12.6px 31.6px rgba(10, 116, 243, 0.15);
         border-radius: 10px !important;
-        padding: 15px 30px 15px 11px !important;
-        position: absolute !important;
-        top: 250px !important;
-        right: -340px !important;
-        border: 0.8px solid #DDDDDD !important;
-        display: flex !important;
-        column-gap: 15px !important;
-        align-items: center !important;
-        background: white !important;
-        font-size: 16px !important;
-        line-height: 24px !important;
-        color: #FF385C !important;
+        padding: 15px 30px 15px 11px;
+        position: absolute;
+        top: 250px;
+        right: -340px;
+        border: 0.8px solid #DDDDDD;
+        display: flex;
+        column-gap: 15px;
+        align-items: center;
+        background: white;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FF385C;
       }
 
       &-camera{
-        align-items: center !important;
-        padding: 15px 30px 15px 11px !important;
-        position: absolute !important;
-        top: 420px !important;
-        right: 160px !important;
-        border-radius: 10px !important;
-        border: 0.8px solid #DDDDDD !important;
-        box-shadow: 0 12.6px 31.6px rgba(10, 116, 243, 0.15) !important;
-        display: flex !important;
-        column-gap: 15px !important;
-        background: white !important;
-        font-size: 16px !important;
-        line-height: 23px !important;
-        color: #1AA260 !important;
+        align-items: center ;
+        padding: 15px 30px 15px 11px;
+        position: absolute;
+        top: 420px;
+        right: 160px;
+        border-radius: 10px;
+        border: 0.8px solid #DDDDDD;
+        box-shadow: 0 12.6px 31.6px rgba(10, 116, 243, 0.15);
+        display: flex;
+        column-gap: 15px;
+        background: white;
+        font-size: 16px;
+        line-height: 23px;
+        color: #1AA260;
       }
 
 
@@ -229,27 +233,11 @@ body:has(#camera:hover) .dot {
   }
 }
 
-@media (max-width: 1300px) {
-  .connect__content {
-    height: 65vh;
-  }
-}
-
 @media (max-width: 1200px) {
-  .connect__content {
-    height: 70vh;
-  }
   .connect {
     padding: 38px 0 52px;
   }
 }
-
-@media (max-width: 1100px) {
-  .connect__content {
-    height: 80vh;
-  }
-}
-
 
 @media (max-width: 1000px) {
   .connect__right-btn {
@@ -268,7 +256,7 @@ body:has(#camera:hover) .dot {
   }
 
   .connect__content {
-    height: 120vh;
+    height: 808px;
   }
 
   .connect__content-box{
@@ -290,3 +278,76 @@ body:has(#camera:hover) .dot {
     right: 150px;
   }
 }
+
+@media (max-width: 750px) {
+  .connect__left-block {
+    display: none;
+  }
+  .connect__left-item {
+    font-size: 18px;
+  }
+  .connect__left {
+    right: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .connect__left-woman-img {
+    display: none;
+  }
+  .connect__left-woman {
+    display: none;
+  }
+  .dot{
+    display: none;
+  }
+  .connect__content {
+    height: 608px;
+  }
+  .connect {
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .connect__content {
+
+  }
+}
+
+@media (max-width: 415px) {
+  .connect__content {
+
+  }
+}
+
+
+@media (max-width: 400px) {
+  .connect__content {
+
+  }
+}
+
+@media (max-width: 394px) {
+  .connect__content {
+
+  }
+}
+
+@media (max-width: 391px) {
+  .connect__content {
+
+  }
+}
+
+@media (max-width: 350px) {
+  .connect__content {
+
+  }
+}
+
+
+
+

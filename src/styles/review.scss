@@ -229,5 +229,34 @@ circle {
   .review__top {
     padding: 42px 0 6px;
   }
+  .review {
+    padding: 31px 0 40px;
+  }
 }
+
+@media (max-width: 650px) {
+  .review__block {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 500px) {
+  #progress {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .review__block {
+    width: calc(70% - 20px);
+  }
+}
+
+@media (max-width: 350px) {
+  .review__block {
+    width: calc(95% - 20px);
+  }
+}
+
+
 

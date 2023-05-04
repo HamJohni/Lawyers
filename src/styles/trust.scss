@@ -206,3 +206,26 @@
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 550px) {
+  .trust__right-low{
+    width: 170.5px !important;
+  }
+  .trust__right-high{
+    width: 170.5px !important;
+  }
+}
+@media (max-width: 500px) {
+  .trust__right-low{
+    width: 200px !important;
+  }
+  .trust__right-high{
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .trust__right-low {
+    width: 162px !important;
+  }
+}

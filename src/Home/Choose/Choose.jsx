@@ -82,15 +82,15 @@ const Choose = () => {
                             <Image src={smile} alt={"smile"}/>
                         </motion.span>
 
-                        <motion.span custom={2} variants={textAnimation} className="choose__content-mid-weight">
+                        <motion.span custom={2} variants={textAnimation} className="choose__content-mid-weight choose__content-mid-icon">
                             <Image src={weight} alt={"weight"}/>
                         </motion.span>
 
-                        <span className="choose__content-mid-graph">
-                            <Image src={sale} alt={"sale"}/>
+                        <span className="choose__content-mid-graph choose__content-mid-icon">
+                            <Image src={sale} alt={"graph"}/>
                         </span>
 
-                        <motion.span custom={2} variants={textAnimation} className="choose__content-mid-time">
+                        <motion.span custom={2} variants={textAnimation} className="choose__content-mid-time choose__content-mid-icon">
                             <Image src={time} alt={"time"}/>
                         </motion.span>
 

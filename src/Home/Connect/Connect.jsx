@@ -113,7 +113,7 @@ const Connect = () => {
                         <motion.span custom={3} variants={textAnimation} className="dot"></motion.span>
 
                         <motion.div custom={3} variants={topAnimation} id="call"
-                                    className="connect__left-block connect__left-block" style={{color: "#C44903"}}>
+                                    className="connect__left-block connect__left-block-call" style={{color: "#C44903"}}>
                             <span className="connect__left-block-svg" style={{background: "#FF9A61"}}>
                                <Image src={call} alt={"erlder"}/>
                             </span>
