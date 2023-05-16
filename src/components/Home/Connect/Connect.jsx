@@ -1,19 +1,17 @@
-import Info from "../../components/Info/Info";
 import Image from "next/image";
-
+import Info from "@/components/Info/Info";
 
 // Image
-import line from "../../../public/trust/line.png"
-import time from "../../../public/connect/time.png"
-import man from "../../../public/connect/man.png"
-import hammer from "../../../public/connect/hammer.png"
-import woman from "../../../public/connect/woman.png"
-import old from "../../../public/connect/elder.png"
-import call from "../../../public/connect/call.png"
-import doc from "../../../public/connect/doc.png"
-import camera from "../../../public/connect/camera.png"
+import line from "../../../../public/trust/line.png"
+import time from "../../../../public/connect/time.png"
+import man from "../../../../public/connect/man.png"
+import hammer from "../../../../public/connect/hammer.png"
+import woman from "../../../../public/connect/woman.png"
+import old from "../../../../public/connect/elder.png"
+import call from "../../../../public/connect/call.png"
+import doc from "../../../../public/connect/doc.png"
+import camera from "../../../../public/connect/camera.png"
 // ------------------------------------------------------------------
-
 
 import {motion} from "framer-motion";
 

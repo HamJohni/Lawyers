@@ -2,16 +2,15 @@
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import {Navigation} from "swiper";
 // ------------------------------------------------------
 
 // Images
-import face from '../../../public/trust/face.png'
+import face from '../../../../public/trust/face.png'
 import Image from "next/image";
-import Info from "../../components/Info/Info";
-import hand from "../../../public/trust/hand.png";
-import build from "../../../public/trust/build.png";
-import people from "../../../public/trust/people.png";
+import Info from "../../../components/Info/Info";
+import hand from "../../../../public/trust/hand.png";
+import build from "../../../../public/trust/build.png";
+import people from "../../../../public/trust/people.png";
 // ----------------------------------------------------
 
 import {motion} from "framer-motion";
@@ -68,8 +67,6 @@ const Trust = () => {
                         }}
                         slidesPerView={2}
                         spaceBetween={45}
-                        modules={[Navigation]}
-                        navigation={true}
                         className="trust__right"
                     >
                         <SwiperSlide className="trust__right-low">

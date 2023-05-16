@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";
-import {increment} from "../../redux/reducers/user";
+import {increment} from "@/redux/reducers/user";
 
 import {useRouter} from "next/router";
 import Link from "next/link";
@@ -13,6 +13,7 @@ import {AiFillEye} from 'react-icons/ai'
 import {AiFillEyeInvisible} from 'react-icons/ai'
 
 const Form = () => {
+
     const {pathname} = useRouter()
     const router = useRouter()
     const [see, setSee] = useState(false)
@@ -64,6 +65,9 @@ const Form = () => {
                 dispatch(increment(res.data))
 
             }).catch((err) => {
+
+            console.log(err)
+
             toast({
                 title: "You cant registration",
                 description: err.message,

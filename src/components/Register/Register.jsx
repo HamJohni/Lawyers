@@ -1,7 +1,6 @@
-import Form from "../components/Form/Form";
+import Form from "../Form/Form";
 
-const Login = () => {
-
+const Register = () => {
     return(
         <section className="auth">
             <Form/>
@@ -9,4 +8,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Register

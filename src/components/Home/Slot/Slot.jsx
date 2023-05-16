@@ -2,12 +2,12 @@ import {useState} from "react";
 
 import Image from "next/image";
 import {useToast} from "@chakra-ui/react";
-import Label from "../../components/Label/Label";
+import Label from "../../Label/Label";
 
 // Images
-import call from '../../../public/firstSection/call.png'
-import hammer from '../../../public/connect/hammer.png'
-import star from '../../../public/slot/star.png'
+import call from '../../../../public/firstSection/call.png'
+import hammer from '../../../../public/connect/hammer.png'
+import star from '../../../../public/slot/star.png'
 // --------------------------------------------------------
 
 import {motion} from "framer-motion";

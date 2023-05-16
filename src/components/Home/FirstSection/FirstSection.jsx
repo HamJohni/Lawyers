@@ -1,7 +1,7 @@
 import React, {useRef} from "react";
 
-import SwiperContent from "../../components/SwiperContent/SwiperContent";
-import circle from '../../../public/firstSection/circle.png'
+import SwiperContent from "../../SwiperContent/SwiperContent";
+import circle from '../../../../public/firstSection/circle.png'
 
 // Swiper library
 import "swiper/css";
@@ -12,7 +12,6 @@ import {Parallax, Pagination, Autoplay} from "swiper";
 // -----------------------------------------------------------
 
 const FirstSection = () => {
-
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
     const onAutoplayTimeLeft = (s, time, progress) => {
@@ -21,7 +20,6 @@ const FirstSection = () => {
     };
 
     return (
-        // <div className="container">
         <Swiper
             speed={600}
             parallax={true}
@@ -57,7 +55,6 @@ const FirstSection = () => {
                 <span ref={progressContent}></span>
             </div>
         </Swiper>
-        // </div>
     )
 }
 export default FirstSection

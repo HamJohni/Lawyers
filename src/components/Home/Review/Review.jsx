@@ -3,7 +3,7 @@ import {useEffect, useRef, useState} from "react";
 import axios from "axios";
 
 import {getAllReviews} from "@/redux/reducers/reviews";
-import OverlayOne from "../../components/Overlay/Overlay";
+import OverlayOne from "../../Overlay/Overlay";
 
 // Chakra
 import {Avatar, CircularProgress, Text, useDisclosure, useToast} from "@chakra-ui/react";

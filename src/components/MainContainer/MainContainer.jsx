@@ -49,6 +49,7 @@ const textAnimation = {
 }
 
 const MainContainer = ({children, keywords, title}) => {
+
     useEffect(() => {
         dispatch(increment(JSON.parse(localStorage.getItem('user'))))
     }, [])
