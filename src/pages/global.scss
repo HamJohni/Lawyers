@@ -60,12 +60,12 @@ button{
 
 $green-color: green;
 
-@import "header";
-@import "first";
-@import "trust";
-@import "connect";
-@import "slot";
-@import "legal";
-@import "review";
-@import "choose";
-@import "form";
+@import "src/styles/header";
+@import "src/styles/first";
+@import "src/styles/trust";
+@import "src/styles/connect";
+@import "src/styles/slot";
+@import "src/styles/legal";
+@import "src/styles/review";
+@import "src/styles/choose";
+@import "src/styles/form";
