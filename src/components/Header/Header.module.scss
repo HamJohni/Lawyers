@@ -14,14 +14,14 @@
   &__burger{
     display: none;
 
-    &-line{
+    &_line{
       color: #D8232A;
       width: 20px;
       height: 3px;
       background: white;
     }
 
-    &-btn{
+    &_btn{
       background: #D8232A !important;
       display: flex;
       flex-direction: column;
@@ -51,32 +51,30 @@
       background: red;
     }
 
-    &-ava {
+    &_ava {
       border: 4px solid #D8232A !important;
       transform: scale(1.1);
       cursor: pointer;
     }
-
   }
-
 
   &__left{
     display: flex;
     column-gap: 87px;
     align-items: center;
 
-    &-box{
+    &_box{
       display: flex;
       align-items: center;
       column-gap: 10px;
     }
 
-    &-img{
+    &_img{
       width: 46px;
       height: 37px;
     }
 
-    &-title{
+    &_title{
       display: flex;
       flex-direction: column;
       color: #DC1F27;
@@ -84,7 +82,7 @@
       font-weight: 600;
     }
 
-    &-subtitle{
+    &_subtitle{
       font-weight: 600;
       font-size: 12px;
       line-height: 18px;
@@ -98,11 +96,12 @@
     display: flex;
     align-items: center;
     column-gap: 25px;
+    padding: 0 10px;
   }
 
   &__item{
     cursor: pointer;
-    &-link{
+    &_link{
       color: #425066;
       font-size: 14px;
       display: flex;
@@ -132,6 +131,7 @@
   }
 }
 
+
 @media (max-width: 1370px) {
   .header{max-width: 1275px;}
 }
@@ -147,7 +147,7 @@
 
 
 @media (max-width: 1050px) {
-  .header__left-subtitle {
+  .header__left_subtitle {
     display: none;
   }
   .header__list {
@@ -162,19 +162,19 @@
 
 
 @media (max-width: 1000px) {
- .header__avatar-ava{
+ .header__avatar_ava{
    transform: scale(.8);
  }
 }
 
 @media (max-width: 950px) {
-  .header__avatar-ava{
+  .header__avatar_ava{
     transform: scale(.8);
   }
-  .header__item-link {
+  .header__item_link {
     transform: scale(.8);
   }
-  .header__left-title {
+  .header__left_title {
     font-size: 20px;
   }
   .header__list {
@@ -192,7 +192,7 @@
   .header{
     padding:10px 5px 12px 5px;
   }
-  .header__left-title {
+  .header__left_title {
     display: none;
   }
 }
@@ -210,15 +210,15 @@
   .header__burger{
     display: flex;
 
-    &-btn{
+    &_btn{
       padding: 0 15px !important;
     }
 
-    &-line{
+    &_line{
       width: 28px;
     }
 
-    &-list{
+    &_list{
       padding-left: 15px;
       display: flex;
       flex-direction: column;
@@ -232,16 +232,16 @@
   .header__left{
     column-gap: 30px;
 
-    &-title{
+    &_title{
       display: block;
     }
 
-    &-subtitle{
+    &_subtitle{
       display: block;
     }
   }
 
-  .header__item-link {
+  .header__item_link {
     font-size: 20px;
     transform: scale(1);
     &:hover{
@@ -250,12 +250,8 @@
   }
 }
 
-
 @media (max-width: 321px) {
-  .header__left-subtitle {
+  .header__left_subtitle {
     display: none;
   }
 }
-
-
-

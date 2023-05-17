@@ -2,6 +2,7 @@ import {useRef,useEffect,useState} from "react";
 import {useRouter} from "next/router";
 import Image from "next/image";
 import Link from "next/link";
+import h from './Header.module.scss'
 
 import Svg from "@/components/Svg/svg";
 
@@ -18,13 +19,13 @@ import {Avatar, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerO
 
 const textAnimation = {
     hidden: {
-        x: -100,
+        x: 100,
         opacity: 0
     },
     visible: custom => ({
         x: 0,
         opacity: 1,
-        transition: {delay: custom * 0.3}
+        transition: {delay: custom * 0.2}
     })
 }
 
@@ -70,18 +71,28 @@ const Header = () => {
         };
     }, []);
 
+    const active = {
+        position: "fixed",
+        maxWidth: "100%",
+        top: "0",
+        zIndex: "1000",
+        borderRadius: "0",
+        padding: "10px 50px"
+    }
+
     return(
-        <motion.header className={`header ${scrollPosition > 20 ? "active" : ''}`}
-                       initial="hidden" whileInView="visible">
+        <motion.header className={h.header}
+                       initial="hidden"
+                       style={scrollPosition > 20 ? active : null}
+                       whileInView="visible">
 
-            <motion.nav custom={1} variants={textAnimation} className="header__nav">
-                <div className="header__left">
-
-                    <div className="header__burger">
-                        <Button onClick={onOpen} className="header__burger-btn">
-                            <p className="header__burger-line"></p>
-                            <p className="header__burger-line"></p>
-                            <p className="header__burger-line"></p>
+            <motion.nav custom={1} variants={textAnimation} className={h.header__nav}>
+                <div className={h.header__left}>
+                    <div className={h.header__burger}>
+                        <Button onClick={onOpen} className={h.header__burger_btn}>
+                            <p className={h.header__burger_line}></p>
+                            <p className={h.header__burger_line}></p>
+                            <p className={h.header__burger_line}></p>
                         </Button>
                         <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
                             <DrawerOverlay />
@@ -90,25 +101,25 @@ const Header = () => {
                                 <DrawerBody padding={0}>
 
                                     <ul className="header__burger-list">
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Practice Areas
                                         </li>
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Immigration
                                         </li>
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Property
                                         </li>
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Matrimonial
                                         </li>
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Personal
                                         </li>
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Business
                                         </li>
-                                        <li className="header__item-link">
+                                        <li className={h.header__item_link}>
                                             Will
                                         </li>
                                     </ul>
@@ -117,57 +128,57 @@ const Header = () => {
                         </Drawer>
                     </div>
 
-                    <h1 className="header__left-box">
+                    <h1 className={h.header__left_box}>
 
-                        <Image className="header__left-img" src={logo} alt="logo"/>
+                        <Image className={h.header__left_img} src={logo} alt="logo"/>
 
-                        <motion.p custom={2} variants={textAnimation} className="header__left-title">
+                        <motion.p custom={2} variants={textAnimation} className={h.header__left_title}>
                             Lawyers
-                            <span className="header__left-subtitle">
+                            <span className={h.header__left_subtitle}>
                                     Legal Services
                                 </span>
                         </motion.p>
                     </h1>
 
-                    <ul className="header__list">
-                        <motion.li custom={2.1} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                    <ul className={h.header__list}>
+                        <motion.li custom={2.1} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Practice Areas
                             </p>
                         </motion.li>
 
-                        <motion.li custom={2.2} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                        <motion.li custom={2.2} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Immigration <Svg/>
                             </p>
                         </motion.li>
 
-                        <motion.li custom={2.3} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                        <motion.li custom={2.3} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Property <Svg/>
                             </p>
                         </motion.li>
 
-                        <motion.li custom={2.3} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                        <motion.li custom={2.3} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Matrimonial <Svg/>
                             </p>
                         </motion.li>
 
-                        <motion.li custom={2.4} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                        <motion.li custom={2.4} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Personal <Svg/>
                             </p>
                         </motion.li>
 
-                        <motion.li custom={2.5} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                        <motion.li custom={2.5} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Business <Svg/>
                             </p>
                         </motion.li>
 
-                        <motion.li custom={2.6} variants={textAnimation} className="header__item">
-                            <p className="header__item-link">
+                        <motion.li custom={2.6} variants={textAnimation} className={h.header__item}>
+                            <p className={h.header__item_link}>
                                 Will <Svg/>
                             </p>
                         </motion.li>
@@ -178,11 +189,11 @@ const Header = () => {
                     user ?
                         <Popover isLazy initialFocusRef={initialFocusRef} closeOnBlur={true}>
                             <PopoverTrigger>
-                                <Avatar className="header__avatar-ava" size='lg' name='Dan Abrahmov' src={user.photo ? user.photo : null}/>
+                                <Avatar className={h.header__avatar_ava} size='lg' name='Dan Abrahmov' src={user.photo ? user.photo : null}/>
                             </PopoverTrigger>
 
                             <PopoverContent width={200}>
-                                <PopoverHeader fontWeight='semibold' fontSize={17}>{user.fullName} </PopoverHeader>
+                                <PopoverHeader fontWeight='semibold' fontSize={17}>{user.fullName}</PopoverHeader>
 
                                 <PopoverArrow/>
 
@@ -195,7 +206,7 @@ const Header = () => {
                         </Popover>
 
                         :
-                        <Link href={"/login"} className="header__btn btn">
+                        <Link href={"/login"} className={h.header__btn + " btn"}>
                             Login
                         </Link>
                 }

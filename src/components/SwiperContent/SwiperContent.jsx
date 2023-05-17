@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {motion} from "framer-motion";
 import {Avatar, AvatarGroup} from "@chakra-ui/react";
+import f from '../Home/FirstSection/First.module.scss'
 
 
 // Images
@@ -40,23 +41,23 @@ const SwiperContent = () => {
             <motion.div
                 initial="hidden"
                 whileInView="visible"
-                className="first__box">
+                className={f.first__box}>
 
-                <motion.div custom={1.5} variants={textAnimation} className="first__left">
-                    <motion.p custom={2} variants={textAnimation} className="first__left-subtitle">
+                <motion.div custom={1.5} variants={textAnimation} className={f.first__left}>
+                    <motion.p custom={2} variants={textAnimation} className={f.first__left_subtitle}>
                         Lorem ipsum dolor sit
                     </motion.p>
 
-                    <motion.h2 custom={3} variants={textAnimation} className="first__left-title">
+                    <motion.h2 custom={3} variants={textAnimation} className={f.first__left_title}>
                         Lorem ipsum dolor <br/>
                         sit amet consectetur.
                     </motion.h2>
 
-                    <motion.p custom={4} variants={textAnimation} className="first__left-subtitle">
+                    <motion.p custom={4} variants={textAnimation} className={f.first__left_subtitle}>
                         Consult a Lawyer now.
                     </motion.p>
 
-                    <motion.div custom={5} variants={textAnimation} className="first__left-online">
+                    <motion.div custom={5} variants={textAnimation} className={f.first__left_online}>
                         <AvatarGroup size='md' max={2}>
                             <Avatar name='Ryan Florence' src='https://bit.ly/ryan-florence'/>
                             <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo'/>
@@ -64,55 +65,55 @@ const SwiperContent = () => {
                             <Avatar name='Prosper Otemuyiwa' src='https://bit.ly/prosper-baba'/>
                         </AvatarGroup>
 
-                        <p className="first__left-online-text">+121 Lawyers are online</p> <span
-                        className="first__left-online-circle"></span>
+                        <p className={f.first__left_online_text}>+121 Lawyers are online</p> <span
+                        className={f.first__left_online_circle}></span>
                     </motion.div>
 
-                    <motion.button custom={6} variants={textAnimation} className="btn">Talk to lawyer
+                    <motion.button custom={6} variants={textAnimation}>Talk to lawyer
                     </motion.button>
 
                 </motion.div>
 
-                <motion.div initial="hidden" whileInView="visible" className="first__right">
-                    <ul className="first__right-list">
+                <motion.div initial="hidden" whileInView="visible" className={f.first__right}>
+                    <ul className={f.first__right_list}>
 
-                        <motion.li custom={2} variants={rightAnimation} className="first__right-item">
+                        <motion.li custom={2} variants={rightAnimation} className={f.first__right_item}>
                             <Image src={camera} alt={"camera"}/>
 
 
-                            <motion.div  custom={3} variants={rightAnimation} className="first__right-info">
-                                <motion.span className="first__right-item-title">
+                            <motion.div  custom={3} variants={rightAnimation} className={f}>
+                                <motion.span className={f.first__right_item_title}>
                                     Lorem
                                 </motion.span>
-                                <motion.p className="first__right-item-info-text">
+                                <motion.p className={f.first__right_item_info_text}>
                                     Lorem dolor sit amet <br/>
                                     consectetur. Varius sed.
                                 </motion.p>
                             </motion.div>
                         </motion.li>
 
-                        <motion.li custom={2} variants={rightAnimation} className="first__right-item">
+                        <motion.li custom={2} variants={rightAnimation} className={f.first__right_item}>
                             <Image src={call} alt={"call"}/>
 
-                            <motion.div  custom={3} variants={rightAnimation} className="first__right-info">
-                                <motion.span className="first__right-item-title">
+                            <motion.div  custom={3} variants={rightAnimation} className={f}>
+                                <motion.span className={f.first__right_item_title}>
                                     Lorem
                                 </motion.span>
-                                <motion.p className="first__right-item-info-text">
+                                <motion.p className={f.first__right_item_info_text}>
                                     Lorem ipsum dolor sit amet <br/>
                                     consectetur. Varius sed.
                                 </motion.p>
                             </motion.div>
                         </motion.li>
 
-                        <motion.li custom={2} variants={rightAnimation} className="first__right-item">
+                        <motion.li custom={2} variants={rightAnimation} className={f.first__right_item}>
                             <Image src={doc} alt={"doc"}/>
 
-                            <motion.div  custom={3} variants={rightAnimation} className="first__right-info">
-                                <motion.span className="first__right-item-title">
+                            <motion.div  custom={3} variants={rightAnimation} className={f}>
+                                <motion.span className={f.first__right_item_title}>
                                     Lorem
                                 </motion.span>
-                                <motion.p className="first__right-item-info-text">
+                                <motion.p className={f.first__right_item_info_text}>
                                     Lorem ipsum dolor sit amet <br/>
                                     consectetur. Varius sed.
                                 </motion.p>
@@ -121,8 +122,8 @@ const SwiperContent = () => {
 
                     </ul>
 
-                    <motion.div custom={2} variants={rightAnimation} className="first__right-circle">
-                        <Image src={circle} alt="circle" className="first__right-circle-img"/>
+                    <motion.div custom={2} variants={rightAnimation} className={f.first__right_circle}>
+                        <Image src={circle} alt="circle" className={f.first__right_circle_img}/>
                     </motion.div>
                 </motion.div>
             </motion.div>
